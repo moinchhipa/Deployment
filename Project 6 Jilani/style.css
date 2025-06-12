@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+
+
+/* Navbar */
+
+
+
+nav {
+    height: 50px;
+    background-color: #12181C;
+    display: flex;
+    padding: 0px 20px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    list-style-type: none;
+}
+
+.nav-links li {
+    margin: 0px 30px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+
+/* Home Main */
+
+
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0px 0px 0px;
+}
+
+.hero a {
+    text-decoration: none;
+}
+
+.name div {
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.text div {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #12181C;
+    height: 40px;
+    width: 160px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.product:hover {
+    cursor: pointer;
+    background-color: #1e90ff;
+}
+
+.product button {
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.product button:hover {
+    cursor: pointer;
+}
+
+
+
+
+/* Brand section */
+
+
+
+
+.brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.b-text span {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.b-image {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 45vw;
+    margin-top: 30px;
+}
+
+.b-image img {
+    width: 100px;
+}
+
+
+
+
+/* Home service */
+
+
+
+
+.home-service {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px 0px 0px;
+}
+
+.ser-image {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 0px 0px 0px;
+    width: 45vw;
+}
+
+.ser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ser-image .ser img {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.ser span {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+
+/* Footer Style */
+
+
+
+
+footer {
+    background-color: #12181C;
+    color: #ffffff;
+    height: 110px;
+    margin-top: 50px;
+}
+
+.f-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+.f-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 216px;
+}
+
+.f-contact svg {
+    height: 14px;
+    margin-right: 5px;
+    fill: #ffffff;
+}
+
+.f-contact span {
+    font-weight: 500;
+}
+
+.f-email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 216px;
+}
+
+.f-email svg {
+    height: 14px;
+    fill: #ffffff;
+    margin-right: 7px;
+}
+
+.f-email a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.f-location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 218px;
+}
+
+.f-location svg {
+    height: 14px;
+    fill: #ffffff;
+    margin-right: 7px;
+}
+
+.f-location a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.copy span {
+    font-size: 13px;
+}
+
+.f-info:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+
+
+/* Products Page */
+
+
+
+
+.product-section-r1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    margin: auto;
+    gap: 100px;
+    margin-top: 30px;
+}
+
+.product-section-r2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    margin: auto;
+    gap: 100px;
+    margin-top: 70px;
+}
+
+.p-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: #12181C;
+    height: 270px;
+}
+
+.p-h-text {
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.p-text {
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 25px;
+}
+
+.card {
+    height: 300px;
+    width: 220px;
+    margin: 20px;
+    border: 1px solid rgb(213, 212, 212);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    width: 222px;
+    height: 140px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.c-head {
+    margin: 15px 0px 0px 15px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.c-detail {
+    margin: 10px 0px 0px 15px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.c-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 32px;
+    width: 120px;
+    background-color: #12181C;
+    margin: auto;
+    border-radius: 6px;
+}
+
+.c-button:hover {
+    background-color: #1e90ff;
+    cursor: pointer;
+}
+
+.c-button button {
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.c-button button:hover {
+    background-color: #1e90ff;
+    cursor: pointer;
+}
