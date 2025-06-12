@@ -4,8 +4,7 @@
     font-family: "Poppins", sans-serif;
 }
 
-html,
-body {
+html,body {
     overflow-x: hidden;
 }
 
@@ -17,7 +16,7 @@ body {
 
 nav {
     height: 50px;
-    background-color: #12181C;
+    background-color: 	#1F2937;
     display: flex;
     padding: 0px 20px;
 }
@@ -51,7 +50,22 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 60px 0px 0px 0px;
+    height: 679px;
+    color: #ffffff;
+    text-align: center;
+    overflow: hidden;
+}
+
+.hero-bg{
+    background-image: url(Images/Hero\ backgrond.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1530px;
+    height: 100%;
+    position: absolute;
+    filter: blur(2px);
+    z-index: -1;
 }
 
 .hero a {
@@ -68,13 +82,14 @@ nav {
     font-size: 24px;
     font-weight: 400;
     margin-top: 30px;
+    color: #ececec;
 }
 
 .product {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #12181C;
+    background-color: #2563EB;
     height: 40px;
     width: 160px;
     border-radius: 6px;
@@ -83,7 +98,7 @@ nav {
 
 .product:hover {
     cursor: pointer;
-    background-color: #1e90ff;
+    background-color: #1E40AF;
 }
 
 .product button {
@@ -181,7 +196,7 @@ nav {
 
 
 footer {
-    background-color: #12181C;
+    background-color: #1F2937;
     color: #ffffff;
     height: 110px;
     margin-top: 90px;
