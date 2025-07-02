@@ -16,7 +16,7 @@ html,body {
 
 nav {
     height: 50px;
-    background-color: 	#1F2937;
+    background-color: #1F2937;
     display: flex;
     padding: 0px 20px;
 }
@@ -324,6 +324,7 @@ footer {
 
     nav {
         padding: 0px;
+        font-size: 12px;
     }
 
     footer {
