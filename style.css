@@ -322,6 +322,10 @@ footer {
         flex-direction: column;
     }
 
+    nav {
+        padding: 0px;
+    }
+
     footer {
         height: 240px;
     }
